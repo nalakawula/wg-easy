@@ -2,10 +2,10 @@ name: Build & Publish Docker Image to Docker Hub
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - production
-      - production/**
+#   push:
+#     branches:
+#       - production
+#       - production/**
 
 jobs:
   deploy:
